@@ -4,6 +4,9 @@ import projectImg1 from "../../assets/img/project1.PNG";
 import projectImg2 from "../../assets/img/project2.PNG";
 
 import "./index.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 const Project = () => {
   const settings = {
@@ -23,7 +26,7 @@ const Project = () => {
         My <span className="text-yellow-500">Project</span>
       </h2>
       <Slider {...settings}>
-        <div className="relative flex w-1/2">
+        <div className="relative flex w-1/2" data-aos="flip-left" data-aos-duration="1500">
           <div>
             <img
               src={projectImg1}
@@ -47,7 +50,7 @@ const Project = () => {
                 <li>Responsibility: Developer</li>
                 <li>
                   Technology: HTML/CSS, TailwindCss, Antd, JS, ReactJs, React
-                  Hooks, Redux, Router
+                  Hooks, Redux, Router,
                 </li>
               </ul>
               <div className="lg:ml-0 md:ml-8">
@@ -78,7 +81,7 @@ const Project = () => {
                   my done project
                 </li>
                 <li>Responsibility: Developer</li>
-                <li>Technology: HTML/CSS, TailwindCss, ReactJs, React Hooks</li>
+                <li>Technology: HTML/CSS, TailwindCss, ReactJs, Aos</li>
               </ul>
               <div className="lg:ml-0 md:ml-8">
                 <button className="md:text-base text-xs px-2 py-1 md:mt-4 mr-4 border-2 border-red-400 rounded bg-red-400 text-white hover:bg-red-500"><a href="http://github.com/phattien991412/fiverr" target={"_blank"}>Link Github</a></button>

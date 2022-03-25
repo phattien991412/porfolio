@@ -1,5 +1,8 @@
 import React from "react";
 import "./index.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 const Resume = () => {
   return (
@@ -9,7 +12,7 @@ const Resume = () => {
       </h1>
       <div className="md:container lg:grid lg:grid-cols-8 xl:grid-cols-12 block mt-10">
         {/* Experience 1 */}
-        <div className="box-content xl:col-start-3 lg:col-span-4  lg:mr-8 lg:mb-8 xl:mb-0 border-2 border-dashed border-green-600 hover:bg-white hover:border-solid hover:shadow-lg duration-500">
+        <div data-aos="fade-right" data-aos-duration="1000" className="box-content xl:col-start-3 lg:col-span-4  lg:mr-8 lg:mb-8 xl:mb-0 border-2 border-dashed border-green-600 hover:bg-white hover:border-solid hover:shadow-lg duration-500">
           <div className="p-4">
             <h1 className="text-xl font-medium pb-2 ">
               California Fitness & Yoga
@@ -28,7 +31,7 @@ const Resume = () => {
         </div>
 
         {/* Edu 1 */}
-        <div className="box-content lg:col-span-4  lg:ml-8 lg:mb-8 xl:mb-0  border-2 border-dashed border-green-600 hover:bg-white hover:border-solid hover:shadow-lg duration-500">
+        <div data-aos="fade-left" data-aos-duration="1000" className="box-content lg:col-span-4  lg:ml-8 lg:mb-8 xl:mb-0  border-2 border-dashed border-green-600 hover:bg-white hover:border-solid hover:shadow-lg duration-500">
           <div className="p-4">
             <h1 className="text-xl font-medium pb-2 ">
               University of Transport
@@ -46,19 +49,19 @@ const Resume = () => {
         </div>
 
         {/*  */}
-        <div className="xl:block hidden col-start-1 col-span-2 translate-x-7 translate-y-6">
+        <div data-aos="fade-right" data-aos-duration="1000" className="xl:block hidden col-start-1 col-span-2 translate-x-7 translate-y-6">
           <h1 className="-rotate-90 text-5xl font-medium text-center text-gray-500 border-b-4">
             EXPERIENCE
           </h1>
         </div>
-        <div className="xl:block hidden col-start-11 col-span-2 -translate-x-7 -translate-y-5">
+        <div data-aos="fade-left" data-aos-duration="1000"  className="xl:block hidden col-start-11 col-span-2 -translate-x-7 -translate-y-5">
           <h1 className="rotate-90 text-5xl font-medium text-center text-gray-500 border-b-4">
             EDUCATION
           </h1>
         </div>
         {/*  */}
         {/* Exp 2 */}
-        <div className="box-content xl:col-start-3 col-span-4 lg:mr-8 border-2 border-dashed border-green-600 hover:bg-white hover:border-solid hover:shadow-lg duration-500">
+        <div data-aos="fade-right" data-aos-duration="1000"  className="box-content xl:col-start-3 col-span-4 lg:mr-8 border-2 border-dashed border-green-600 hover:bg-white hover:border-solid hover:shadow-lg duration-500">
           <div className="p-4">
             <h1 className="text-xl font-medium pb-2">Personal Project</h1>
             <p className="text-green-700 ml-3 font-medium">
@@ -72,7 +75,7 @@ const Resume = () => {
         </div>
 
         {/* Edu 2 */}
-        <div className="box-content  col-span-4 lg:ml-8 border-2 border-dashed border-green-600 hover:bg-white hover:border-solid hover:shadow-lg duration-500">
+        <div data-aos="fade-left" data-aos-duration="1000"  className="box-content  col-span-4 lg:ml-8 border-2 border-dashed border-green-600 hover:bg-white hover:border-solid hover:shadow-lg duration-500">
           <div className="p-4">
             <h1 className="text-xl font-medium pb-2 ">Cybersoft Academy</h1>
             <p className="text-green-700 ml-3 font-medium">

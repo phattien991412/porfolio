@@ -8,6 +8,9 @@ import {
   faGithub,
   faGitlab
 } from "@fortawesome/free-brands-svg-icons";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 const Skill = () => {
   return (
@@ -18,7 +21,7 @@ const Skill = () => {
       </h1>
       <div className="md:container grid grid-cols-5">
         <ul className="xl:col-start-2 xl:col-span-3 col-span-5 xl:text-2xl text-lg">
-          <li
+          <li data-aos="fade-down" data-aos-duration="1000"
             style={{ borderColor: "#003134a6"}}
             className="border-2 rounded-r-full rounded-l-full pl-4 my-10 py-4 text-green-700"
           >
@@ -38,7 +41,7 @@ const Skill = () => {
             <span className="mx-3 xl:text-xl xl:ml-0 text-md">Antd</span>
             <span className="mx-2 xl:text-xl text-lg md:inline-block hidden">Responsive</span>
           </li>
-          <li
+          <li data-aos="fade-down" data-aos-duration="1200"
             style={{ borderColor: "#003134a6", backgroundColor: "#e6f4f1" }}
             className="border-2 border-black rounded-r-full rounded-l-full pl-4 my-10 py-4 text-green-700"
           >
@@ -46,7 +49,7 @@ const Skill = () => {
             <span className="mx-2 text-xl">ES5/ES6</span>{" "}
             <span className="mx-2 text-xl">Axios</span>
           </li>
-          <li
+          <li data-aos="fade-down" data-aos-duration="1400"
             style={{ borderColor: "#003134a6", backgroundColor: "#e6f4f1" }}
             className="border-2 border-black rounded-r-full rounded-l-full pl-4 my-10 py-4 text-green-700"
           >
@@ -56,7 +59,7 @@ const Skill = () => {
             <span className="xl:mx-2 mx-1 xl:text-xl md:ml-0 text-md ml-28">Redux</span>
             <span className="xl:mx-2 mx-1 xl:text-xl text-md">React Hooks</span>
           </li>
-          <li
+          <li data-aos="fade-down" data-aos-duration="1600"
             style={{ borderColor: "#003134a6", backgroundColor: "#e6f4f1" }}
             className="border-2 border-black rounded-r-full rounded-l-full pl-4 my-10 py-4 text-green-700"
           >
@@ -69,7 +72,7 @@ const Skill = () => {
               <FontAwesomeIcon className="text-yellow-600 xl:text-4xl text-2xl" icon={faGitlab} />
             </span>
           </li>
-          <li
+          <li data-aos="fade-down" data-aos-duration="1800"
             style={{ borderColor: "#003134a6", backgroundColor: "#e6f4f1" }}
             className="border-2 border-black rounded-r-full rounded-l-full pl-4 my-10 py-4 text-green-700"
           >
@@ -77,7 +80,7 @@ const Skill = () => {
             <span className="mx-2 xl:text-xl text-md">Team Workd</span>{" "}
             <span className="mx-2 xl:text-xl text-md">Self Study</span>
           </li>
-          <li
+          <li data-aos="fade-down" data-aos-duration="2000"
             style={{ borderColor: "#003134a6", backgroundColor: "#e6f4f1" }}
             className="border-2 border-black rounded-r-full rounded-l-full pl-4 my-10 py-4 text-green-700"
           >

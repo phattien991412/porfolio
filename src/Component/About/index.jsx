@@ -3,6 +3,9 @@ import Avatar from "../../assets/img/ava2.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faFacebook, faGithub, faInstagram} from "@fortawesome/free-brands-svg-icons"
 import {faUser, faLocationPin, faPhone, faEnvelope} from '@fortawesome/free-solid-svg-icons'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+AOS.init();
 
 
 const About = () => {
@@ -16,7 +19,7 @@ const About = () => {
         }}
         className="absolute inset-0 w-full"
       ></div>
-      <div className="flex justify-center">
+      <div className="flex justify-center"  data-aos="fade-up" data-aos-duration="1000">
         <div style={{backgroundColor: "#e6f4f1"}}
           className="xl:container text-center border rounded xl:my-20 my-10 xl:w-3/4 md:w-4/5 z-20 shadow-lg shadow-black"
         >

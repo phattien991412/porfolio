@@ -21,7 +21,7 @@ const Header = () => {
     return () => window.removeEventListener("scroll", changeLayoutHeader);
   }, []);
 
-  const topHeader = document.getElementById("#header");
+  const topHeader = document.getElementById("header");
 
   const handleTopHeader = () => {
     topHeader.addEventListener("click", () => {
@@ -32,7 +32,7 @@ const Header = () => {
     });
   };
 
-  const logoHeader = document.getElementById("#logo");
+  const logoHeader = document.getElementById("logo");
   const handleLogoHeader = () => {
     logoHeader.addEventListener("click", () => {
       window.scrollTo({
