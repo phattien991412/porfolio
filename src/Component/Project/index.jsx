@@ -84,8 +84,8 @@ const Project = () => {
                 <li>Technology: HTML/CSS, TailwindCss, ReactJs, Aos</li>
               </ul>
               <div className="lg:ml-0 md:ml-8">
-                <button className="md:text-base text-xs px-2 py-1 md:mt-4 mr-4 border-2 border-red-400 rounded bg-red-400 text-white hover:bg-red-500"><a href="http://github.com/phattien991412/fiverr" target={"_blank"}>Link Github</a></button>
-                <button className="md:text-base text-xs px-2 py-1 border-2 border-gray-400 rounded bg-gray-400 text-white hover:bg-gray-500"><a href="https://fiverr-b568b.web.app/" target={"_blank"}>Link Demo</a></button>
+                <button className="md:text-base text-xs px-2 py-1 md:mt-4 mr-4 border-2 border-red-400 rounded bg-red-400 text-white hover:bg-red-500"><a href="http://github.com/phattien991412/porfolio" target={"_blank"}>Link Github</a></button>
+                <button className="md:text-base text-xs px-2 py-1 border-2 border-gray-400 rounded bg-gray-400 text-white hover:bg-gray-500"><a href="https://porfolio47.netlify.app/" target={"_blank"}>Link Demo</a></button>
               </div>
             </div>
           </div>
