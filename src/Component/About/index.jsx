@@ -3,9 +3,7 @@ import Avatar from "../../assets/img/ava2.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faFacebook, faGithub, faInstagram} from "@fortawesome/free-brands-svg-icons"
 import {faUser, faLocationPin, faPhone, faEnvelope} from '@fortawesome/free-solid-svg-icons'
-import AOS from 'aos';
-import 'aos/dist/aos.css'; 
-AOS.init();
+
 
 
 const About = () => {

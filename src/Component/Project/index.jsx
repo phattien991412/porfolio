@@ -4,9 +4,6 @@ import projectImg1 from "../../assets/img/project1.PNG";
 import projectImg2 from "../../assets/img/project2.PNG";
 
 import "./index.css";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-AOS.init();
 
 const Project = () => {
   const settings = {

@@ -1,8 +1,6 @@
 import React from "react";
 import "./index.css";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-AOS.init();
+
 
 const Resume = () => {
   return (
@@ -10,7 +8,7 @@ const Resume = () => {
       <h1 className="text-center xl:text-5xl text-3xl">
         My <span className="text-yellow-500">Resume</span>
       </h1>
-      <div className="md:container lg:grid lg:grid-cols-8 xl:grid-cols-12 block mt-10">
+      <div className="md:container lg:grid lg:grid-cols-8 xl:grid-cols-12 block mt-10 overflow-x-hidden">
         {/* Experience 1 */}
         <div data-aos="fade-right" data-aos-duration="1000" className="box-content xl:col-start-3 lg:col-span-4  lg:mr-8 lg:mb-8 xl:mb-0 border-2 border-dashed border-green-600 hover:bg-white hover:border-solid hover:shadow-lg duration-500">
           <div className="p-4">

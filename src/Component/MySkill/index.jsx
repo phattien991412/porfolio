@@ -8,9 +8,6 @@ import {
   faGithub,
   faGitlab
 } from "@fortawesome/free-brands-svg-icons";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-AOS.init();
 
 const Skill = () => {
   return (
