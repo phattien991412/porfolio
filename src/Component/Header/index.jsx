@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import logoPng from "../../assets/img/imgbin_logo-letter-font-png.png"
+import logoPng from "../../assets/img/Layer4.png"
 
 const Header = () => {
   const [header, setHeader] = useState(false);
