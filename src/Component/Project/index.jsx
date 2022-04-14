@@ -2,6 +2,8 @@ import React from "react";
 import Slider from "react-slick";
 import projectImg1 from "../../assets/img/project1.PNG";
 import projectImg2 from "../../assets/img/project2.PNG";
+import projectImg3 from "../../assets/img/project3.PNG";
+
 
 import "./index.css";
 
@@ -23,6 +25,7 @@ const Project = () => {
         My <span className="text-yellow-500">Project</span>
       </h2>
       <Slider {...settings}>
+        {/* P1 */}
         <div className="relative flex w-1/2" data-aos="flip-left" data-aos-duration="1500">
           <div>
             <img
@@ -42,7 +45,8 @@ const Project = () => {
               <ul className="list-disc pl-14 text-green-700 lg:block hidden">
                 <li>
                   Description: A clone UI website of Fiverr with full
-                  responsive, sign in/sign up page
+                  responsive. <br />
+                  <span> Authenication: Sign in/ Sign up (API from Cybersoft Academy)</span>
                 </li>
                 <li>Responsibility: Developer</li>
                 <li>
@@ -58,6 +62,7 @@ const Project = () => {
           </div>
         </div>
 
+        {/* P2 */}
         <div className="relative flex w-1/2">
           <div>
             <img
@@ -83,6 +88,37 @@ const Project = () => {
               <div className="lg:ml-0 md:ml-8">
                 <button className="md:text-base text-xs px-2 py-1 md:mt-4 mr-4 border-2 border-red-400 rounded bg-red-400 text-white hover:bg-red-500"><a href="http://github.com/phattien991412/porfolio" target={"_blank"}>Link Github</a></button>
                 <button className="md:text-base text-xs px-2 py-1 border-2 border-gray-400 rounded bg-gray-400 text-white hover:bg-gray-500"><a href="https://porfolio47.netlify.app/" target={"_blank"}>Link Demo</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* P3 */}
+        <div className="relative flex w-1/2">
+          <div>
+            <img
+              src={projectImg3}
+              alt="img"
+              className="xl:w-3/5 w-full mx-auto rounded-xl shadow-xl"
+            />
+          </div>
+          <div
+            style={{ backgroundColor: "#e6f4f1" }}
+            className="xl:w-1/2 lg:w-3/4 lg:h-auto md:h-20 md:block md:w-2/5 right-0 absolute xl:right-36 bottom-0 z-40 border-2 border-green-500 rounded-xl "
+          >
+            <div className="lg:p-4 p-2">
+              <h2 className="md:text-xl lg:block hidden text-sm text-green-700 font-medium">Cinema</h2>
+              <ul className="list-disc pl-14 text-green-700 lg:block hidden">
+                <li>
+                  Description: UI Cinema Website with full responsive. <br />
+                  <span> Authenication: Sign in/ Sign up, Checkout (API from Cybersoft Academy)</span>
+                </li>
+                <li>Responsibility: Developer</li>
+                <li>Technology: HTML/CSS, JS, TailwindCss, ReactJs</li>
+              </ul>
+              <div className="lg:ml-0 md:ml-8">
+                <button className="md:text-base text-xs px-2 py-1 md:mt-4 mr-4 border-2 border-red-400 rounded bg-red-400 text-white hover:bg-red-500"><a href="http://github.com/phattien991412/movie" target={"_blank"}>Link Github</a></button>
+                <button className="md:text-base text-xs px-2 py-1 border-2 border-gray-400 rounded bg-gray-400 text-white hover:bg-gray-500"><a href="https://movie47.netlify.app/" target={"_blank"}>Link Demo</a></button>
               </div>
             </div>
           </div>

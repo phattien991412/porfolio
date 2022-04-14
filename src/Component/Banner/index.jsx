@@ -1,8 +1,12 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 import Avatar from "../../assets/img/ava.png"
-
+import fileCv from "../../assets/file/CV-TrinhTienPhat.pdf"
+import {saveAs} from "file-saver"
 const Banner = () => {
+  const saveFile = () => {
+    saveAs (fileCv)
+  }
   return (
     <div style={{ backgroundColor: "#e6f4f1" }} className="xl:container px-10">
       <div className="xl:grid xl:grid-cols-2 xl:pt-40 pt-28 ">
@@ -33,6 +37,10 @@ const Banner = () => {
               keep concentrated on learning to improve my skills to become a
               Fullstack Developer.
             </p>
+          </div>
+
+          <div className="pt-16 ml-10">
+            <button onClick={saveFile} className="px-4 py-2 border border-red-400 bg-red-400 rounded text-white shadow-xl animate-bounce">Download CV</button>
           </div>
         </div>
         <div >
