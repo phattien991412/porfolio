@@ -39,7 +39,7 @@ const Banner = () => {
             </p>
           </div>
 
-          <div className="pt-16 ml-10">
+          <div className="xl:pt-16 xl:ml-10 mb-8 ">
             <button onClick={saveFile} className="px-4 py-2 border border-red-400 bg-red-400 rounded text-white shadow-xl animate-bounce">Download CV</button>
           </div>
         </div>

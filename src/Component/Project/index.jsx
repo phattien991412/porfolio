@@ -4,7 +4,6 @@ import projectImg1 from "../../assets/img/project1.PNG";
 import projectImg2 from "../../assets/img/project2.PNG";
 import projectImg3 from "../../assets/img/project3.PNG";
 
-
 import "./index.css";
 
 const Project = () => {
@@ -26,7 +25,7 @@ const Project = () => {
       </h2>
       <Slider {...settings}>
         {/* P1 */}
-        <div className="relative flex w-1/2" data-aos="flip-left" data-aos-duration="1500">
+        <div className="relative flex w-1/2">
           <div>
             <img
               src={projectImg1}
